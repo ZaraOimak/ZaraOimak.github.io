@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="resource/profile_img.jpg" alt="foto" class="profile-img">
+                <h1>Осипов Артём</h1>
+                <h2>ТРКПО 74-64</h2>
+                <div class="social-links">
+                    <a href="https://t.me/Chy_Papi"><img src="resource/tg_icon.svg" alt="Telegram"></a>
+                    <a href="https://discordapp.com/users/564783217690017792"><img src="resource/di_icon.svg" alt="Discord"></a>
+                    <a href="https://web.whatsapp.com/"><img src="resource/wa_icon.svg" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>Обо мне</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus facilis qui assumenda commodi illum voluptate libero incidunt ullam necessitatibus consequuntur magni quis temporibus enim esse asperiores officiis tenetur, sunt id.</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+        </section>
+
+        <section class="section2">
+            <div>
+                «Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam delectus, accusantium obcaecati doloremque sit eum officia cum. Enим, labore!» — Artem Osipov
+            </div>
+        </section>
+
+        <section class="section3">
+            <h2>Фоточка</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, perspiciatis ex? Nihil quas, expedita sequi quae facere sint non ad vero.</p>
+            <img src="resource/tr_image.jpg" alt="image" class="img">
+        </section>
+
+        <section class="articles">
+            <h2>Статьи</h2>
+            <div class="article-card">
+                <h3>Название статьи 1</h3>
+                <p>Lorem ipsum dolor sit amet...</p>
+                <a href="#" class="read-more">Читать далее</a>
+            </div>
+            <div class="article-card">
+                <h3>Название статьи 2</h3>
+                <p>Lorem ipsum dolor sit amet...</p>
+                <a href="#" class="read-more">Читать далее</a>
+            </div>
+            <div class="article-card">
+                <h3>Название статьи 3</h3>
+                <p>Lorem ipsum dolor sit amet...</p>
+                <a href="#" class="read-more">Читать далее</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Все права защищены</p>
+            <h3>Свяжитесь со мной</h3>
+            <form id="contactForm">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Введите вашу почту">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" placeholder="Введите ваше сообщение"></textarea>
+                <button type="submit">Отправить</button>
+                <p id="formMessage"></p>
+            </form>
+        </div>
+    </footer>
+    
+
+    <script src="js.js"></script>
+</body>
+</html>
