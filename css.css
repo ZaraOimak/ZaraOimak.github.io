@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #102049;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.profile {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.about, .section2, .section3, .articles {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about p, .section3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.section2 {
+    background-color: #333;
+    color: white;
+}
+
+.section2 div {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.section3 img {
+    width: 60%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #102049;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.articles {
+    background-color: #f5f5f5;
+}
+
+.article-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+.article-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.article-card p {
+    margin-bottom: 10px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #102049;
+    font-weight: bold;
+    border: 1px solid #102049;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #102049;
+    color: white;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+}
+
+footer form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer form input, footer form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+footer form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #102049;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer form button:hover {
+    background-color: #333;
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
